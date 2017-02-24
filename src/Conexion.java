@@ -7,6 +7,9 @@ import java.sql.Statement;
 
 
 public class Conexion {
+	/*
+	Cabezón
+	*/
 	Connection conexion;
 	public void conectar() throws ClassNotFoundException, SQLException{
 		Class.forName("com.mysql.jdbc.Driver");
